@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(../imaj/Spiral.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(80, 71, 71, 0.5);
+}
+.logo img {
+  width: 115px;
+  margin: 5% 0% 0% 150%;
+}
+.nav-main {
+  margin: 3% 0% 0% 41%;
+  float: right;
+}
+.nav-main li {
+  list-style: none;
+  display: inline-block;
+}
+.nav-main li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+.nav-main li a.active {
+  border: 2px solid;
+  border-color: transparent transparent rgb(0, 0, 0);
+}
+.nav-main li a:hover {
+  color: rgb(75, 43, 219);
+}
+.nav-main li a.active:hover {
+  border: 1px 0px 0px 0px;
+  border: solid;
+  border-color: transparent transparent rgb(75, 43, 219);
+}
+.teterHeder {
+  width: 100vw;
+  position: absolute;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  margin-top: 180px;
+  color: #000;
+}
+.welcom {
+  width: 100vw;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  margin-top: 180px;
+  color: #000;
+}
+.btn1 {
+  font-size: 30px;
+  background-color: darkorange;
+}
+.btn2:hover {
+  background-color: darkorange;
+}
+.btn {
+  padding: 10px 10px;
+  border: 1px solid #000;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+}
